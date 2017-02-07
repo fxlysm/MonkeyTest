@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity
                 DatabaseHandler databaseHandler =new DatabaseHandler( MainActivity.this);
                 databaseHandler.SaveKey((valueOf),MainActivity.this);
 
-                
+
                 Snackbar.make(view, String.format("点击 "+myshared.getString("test_appname","com.android.settings")), Snackbar.LENGTH_LONG).show();
 
             }
