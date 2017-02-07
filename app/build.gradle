@@ -4,9 +4,9 @@ android {
     signingConfigs {
         config {
             keyAlias 'mykey'
-            keyPassword '3763455'
+            keyPassword '123456'
             storeFile file('E:/Lambert/C/Users/Lambert liu/lambert.jks')
-            storePassword '3763455'
+            storePassword '123456'
         }
     }
     compileSdkVersion 25
