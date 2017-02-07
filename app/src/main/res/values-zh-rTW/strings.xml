@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">MonkeyTest</string>
+	<string name="navigation_drawer_open">打開導航抽屜</string>
+	<string name="navigation_drawer_close">關閉導航抽屜</string>
+	<string name="action_settings">設置</string>
+	<string name="action_close">關閉</string>
+	<string name="app_test_name">應用程式清單</string>
+	<string name="title_activity_settings">設置</string>
+	<string name="title_config_settings">參數設置</string>
+	<string name="title_email_settings">電子郵件設定</string>
+	<string name="title_language_seitch">語言切換</string>
+	<string name="monkey_throttle">— — 節流毫秒的時間內</string>
+	<string name="monkey_throttle_text">500</string>
+	<string name="monkey_appswitch_percent">pct — — appswitch %</string>
+	<string name="monkey_appswitch_percent_text">50</string>
+	<string name="monkey_anyevent_percent">pct — — anyevent %</string>
+	<string name="monkey_anyevent_percent_text">100</string>
+	<string name="run_count">運行計數</string>
+	<string name="run_count_text">144000</string>
+	<string name="ignore_error">忽略錯誤</string>
+	<string name="monkey_ignore_crashes">— — 忽略崩潰</string>
+	<string name="monkey_ignore_timeouts">— — 忽略超時</string>
+	<string name="monkey_ignore_security_exceptions">— — 忽略安全異常</string>
+	<string name="monkey_killprocess_aftererrror">— — 殺死進程後錯誤</string>
+	<string name="sent_report_after">發送電子郵件報告</string>
+	<string name="email_account">電子郵件帳戶</string>
+	<string name="email_account_text"></string>
+	<string name="email_password">密碼</string>
+	<string name="email_password_text"></string>
+	<string name="email_send_server">發送伺服器</string>
+	<string name="email_send_server_text"></string>
+	<string name="email_send_port">埠</string>
+	<string name="email_send_port_text"></string>
+	<string name="email_incoming_server">接收伺服器</string>
+	<string name="email_incoming_server_text"></string>
+	<string name="email_incoming_port">埠</string>
+	<string name="email_incoming_port_text"></string>
+	<string name="save_logs">保存日誌</string>
+	<string name="save_monkey_log">保存猴子日誌</string>
+	<string name="save_system_logs">保存 Logcat</string>
+	<string name="noing_changed">沒有改變</string>
+	<string name="pref_header_general">一般</string>
+	<string name="pref_title_social_recommendations">使社會的建議</string>
+	<string name="pref_description_social_recommendations">建議人們交往
+        基於消息歷史記錄</string>
+	<string name="pref_title_display_name">顯示名稱</string>
+	<string name="pref_default_display_name">約翰 · 史密斯</string>
+	<string name="pref_title_add_friends_to_messages">添加到郵件的朋友</string>
+	<string name="pref_header_data_sync">資料與同步</string>
+	<string name="pref_title_sync_frequency">同步頻率</string>
+	<string name="pref_title_system_sync_settings">系統同步設置</string>
+	<string name="pref_header_notifications">通知</string>
+	<string name="pref_title_new_message_notifications">新郵件通知</string>
+	<string name="pref_title_ringtone">鈴聲</string>
+	<string name="pref_ringtone_silent">沉默</string>
+	<string name="pref_title_vibrate">震動</string>
+	<string name="title_activity_about">AboutActivity</string>
+	<string name="large_text">"材料是 metaphor.
+
+"
+
+"材料的隱喻是合理化的空間和運動系統的統一理論"。
+        "材料被植根于現實觸覺，靈感的紙張和油墨，研究尚未"
+        技術先進的、 開放的想像力和魔法 
+"
+        "表面和材料的邊緣，提供視覺提示，植根于現實。"
+        "使用熟悉的觸覺屬性可説明使用者快速瞭解啟示。然而"
+        "靈活的材料創造取代那些在物理的新啟示"
+        "世界，而不會破壞規則的物理 
+"
+        "光、 曲面和運動的基本原理是關鍵所在輸送物件是如何動作的"
+        "進行交互，並存在於空間和相互關係。實事求是的燈光秀"
+        "接縫、 劃分的空間，和指示移動 parts.
+
+"
+
+"大膽、 圖形，intentional.
+
+"
+
+"列印基於的設計排版、 網格、 空間、 尺度、 色彩、 基礎性要素"
+        "，並且使用的意象指南視覺處理。這些元素做遠遠超過請"
+        "眼。他們創建的層次結構、 含義和焦點。深思熟慮的顏色選擇，邊到邊"
+        "意象、 大型排版和故意的白色空間創造大膽和圖形"
+        "沉浸在 
+ 經驗。 使用者的介面"
+        "強調使用者採取行動使核心功能立即顯現出來，並提供"
+        "user.
+
+ 小站"
+
+"運動提供了 meaning.
+
+"
+
+"議案尊重並加強使用者作為原動機。初級使用者操作是"
+        "拐點，發起運動，改變了整個的設計 
+"
+        "將單一環境中的發生的所有操作。物件提交沒有使用者"
+        "打破了連續性的經驗，即使因為他們變換和重組 
+"
+        "辯論，是有意義和適當的服務，集中注意力，保持連續性。
+        "回饋是微妙尚未明確。過渡規避尚 coherent.
+
+"
+
+"3D world.
+
+"
+
+"物質環境是一個三維的空間，這意味著所有物件都有 x、 y 和 z"
+        "維度。Z 軸垂直于平面顯示器，與對齊"
+        "正的 Z 軸延伸向觀眾。每個表材料佔有單"
+        "沿 Z 軸的位置並且擁有一個標準 1dp 厚度 
+"
+        "在 web 上，Z 軸用於分層和不角度來看。3D 世界是"
+        "類比通過操縱 y-axis.
+
+"
+
+"光與 shadow.
+
+"
+
+"在物質環境中，虛擬的燈光照亮場景。關鍵燈創建"
+        "定向的影子，雖然光線從所有角度 
+ 創建軟陰影"
+        "在物質環境是投射出的陰影這些兩個光源。在安卓系統"
+        "發展，陰影光源是當阻止時出現的床單在材料"
+        "沿 Z 軸的各種職位。在 web 上，陰影描述通過操縱"
+        "只有 y 軸。下面的示例演示與高度 6dp.
+
+ 卡"
+
+"休息 elevation.
+
+"
+
+"一切物質的東西，無論規模大小，有休息的海拔或預設仰角"
+        "這並沒有改變。如果一個物件改變高程，它應該返回到其休息"
+        "儘快為 possible.
+
+ 海拔"
+
+"元件 elevations.
+
+"
+
+"休息海拔為元件類型之間是一致的應用程式 （例如，FAB 海拔"
+        "does not vary from 6dp in one app to 16dp in another app).
+"
+        "元件可能有不同的靜息海拔跨平臺，取決於深度"
+        "的環境 （例如，電視有更大的深度比移動或 desktop).
+
+"
+
+"回應高程和動態標高 offsets.
+
+"
+
+"一些元件類型有回應的高程，意思他們改變高程在回應"
+        "對使用者輸入 （例如，正常，重點突出，並按下） 或系統事件。這些高程"
+        "變化予以貫徹執行使用動態標高偏移 
+"
+        "動態標高偏移量是一個元件的走向，相對目標高程"
+        "到元件的靜息狀態。他們確保高程變化相一致"
+        "穿越行動和元件類型。例如，解除對新聞的所有元件都有"
+        "相對於他們休息的海拔 
+ 同一高程變化"
+        "一旦輸入的事件是完成或取消，該元件將返回到其休息"
+        "elevation.
+
+"
+
+"避免海拔 interference.
+
+"
+
+"元件的回應海拔可能會遇到其他元件，如他們之間移動"
+        "他們休息的海拔和動態標高偏移量。因為材料不能通過"
+        "其他的材料，通過元件避免互相干擾任意數量的方式"
+        "無論是對每個元件的基礎或使用的整個應用程式佈局 
+"
+        "元件在元件級，可以移動或被刪除之前他們造成干擾"。
+        "舉個例子，一個浮動的動作按鈕 (FAB) 可以消失或搬離螢幕前"
+        "使用者拿起一張卡片，或它可以移動如果小吃店出現。 
+"
+        "在佈局層面上，設計您的應用程式佈局，儘量減少干擾的機會"。
+        "例如，定位晶圓廠到一側的流的卡所以不會影響到晶圓廠"
+        "當使用者試圖撿到了一個 cards.
+
+"</string>
+	<string name="title_activity_load_data">LoadDataActivity</string>
+
+</resources>

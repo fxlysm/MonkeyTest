@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fxly.monkeytest"
+    android:sharedUserId="android.uid.system"
+    >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_config_settings"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.MaterialAboutActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".ui.EmailSettingsActivity"
+            android:label="@string/title_email_settings"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ui.APPlistActivity"
+            android:label="@string/app_test_name" />
+        <activity android:name=".ui.WellcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.LoadDataActivity"
+            android:label="@string/title_activity_load_data"
+            android:theme="@style/DialogTransparent">
+
+            <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        </activity>
+        <activity android:name=".settings.SettingsFragment"
+            android:label="@string/action_settings"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".ui.SettingsUiActivity" android:label="@string/action_settings" android:parentActivityName=".MainActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">MonkeyTest</string>
+	<string name="navigation_drawer_open">打开导航抽屉</string>
+	<string name="navigation_drawer_close">关闭导航抽屉</string>
+	<string name="action_settings">设置</string>
+	<string name="action_close">关闭</string>
+	<string name="app_test_name">应用程序列表</string>
+	<string name="title_activity_settings">设置</string>
+	<string name="title_config_settings">参数设置</string>
+	<string name="title_email_settings">电子邮件设置</string>
+	<string name="title_language_seitch">语言切换</string>
+	<string name="monkey_throttle">— — 节流毫秒的时间内</string>
+	<string name="monkey_throttle_text">500</string>
+	<string name="monkey_appswitch_percent">pct — — appswitch %</string>
+	<string name="monkey_appswitch_percent_text">50</string>
+	<string name="monkey_anyevent_percent">pct — — anyevent %</string>
+	<string name="monkey_anyevent_percent_text">100</string>
+	<string name="run_count">运行计数</string>
+	<string name="run_count_text">144000</string>
+	<string name="ignore_error">忽略错误</string>
+	<string name="monkey_ignore_crashes">— — 忽略崩溃</string>
+	<string name="monkey_ignore_timeouts">— — 忽略超时</string>
+	<string name="monkey_ignore_security_exceptions">— — 忽略安全异常</string>
+	<string name="monkey_killprocess_aftererrror">— — 杀死进程后错误</string>
+	<string name="sent_report_after">发送电子邮件报告</string>
+	<string name="email_account">电子邮件帐户</string>
+	<string name="email_account_text"></string>
+	<string name="email_password">密码</string>
+	<string name="email_password_text"></string>
+	<string name="email_send_server">发送服务器</string>
+	<string name="email_send_server_text"></string>
+	<string name="email_send_port">端口</string>
+	<string name="email_send_port_text"></string>
+	<string name="email_incoming_server">接收服务器</string>
+	<string name="email_incoming_server_text"></string>
+	<string name="email_incoming_port">端口</string>
+	<string name="email_incoming_port_text"></string>
+	<string name="save_logs">保存日志</string>
+	<string name="save_monkey_log">保存猴子日志</string>
+	<string name="save_system_logs">保存 Logcat</string>
+	<string name="noing_changed">没有改变</string>
+	<string name="pref_header_general">一般</string>
+	<string name="pref_title_social_recommendations">使社会的建议</string>
+	<string name="pref_description_social_recommendations">建议人们交往
+        基于消息历史记录</string>
+	<string name="pref_title_display_name">显示名称</string>
+	<string name="pref_default_display_name">约翰 · 史密斯</string>
+	<string name="pref_title_add_friends_to_messages">添加到邮件的朋友</string>
+	<string name="pref_header_data_sync">数据与同步</string>
+	<string name="pref_title_sync_frequency">同步频率</string>
+	<string name="pref_title_system_sync_settings">系统同步设置</string>
+	<string name="pref_header_notifications">通知</string>
+	<string name="pref_title_new_message_notifications">新邮件通知</string>
+	<string name="pref_title_ringtone">铃声</string>
+	<string name="pref_ringtone_silent">沉默</string>
+	<string name="pref_title_vibrate">震动</string>
+	<string name="title_activity_about">AboutActivity</string>
+	<string name="large_text">"材料是 metaphor.
+
+"
+
+"材料的隐喻是合理化的空间和运动系统的统一理论"。
+        "材料被植根于现实触觉，灵感的纸张和油墨，研究尚未"
+        技术先进的、 开放的想象力和魔法 
+"
+        "表面和材料的边缘，提供视觉提示，植根于现实。"
+        "使用熟悉的触觉属性可帮助用户快速了解启示。然而"
+        "灵活的材料创造取代那些在物理的新启示"
+        "世界，而不会破坏规则的物理 
+"
+        "光、 曲面和运动的基本原理是关键所在输送对象是如何动作的"
+        "进行交互，并存在于空间和相互关系。实事求是的灯光秀"
+        "接缝、 划分的空间，和指示移动 parts.
+
+"
+
+"大胆、 图形，intentional.
+
+"
+
+"打印基于的设计排版、 网格、 空间、 尺度、 色彩、 基础性要素"
+        "，并且使用的意象指南视觉处理。这些元素做远远超过请"
+        "眼。他们创建的层次结构、 含义和焦点。深思熟虑的颜色选择，边到边"
+        "意象、 大型排版和故意的白色空间创造大胆和图形"
+        "沉浸在 
+ 经验。 用户的界面"
+        "强调用户采取行动使核心功能立即显现出来，并提供"
+        "user.
+
+ 小站"
+
+"运动提供了 meaning.
+
+"
+
+"议案尊重并加强用户作为原动机。初级用户操作是"
+        "拐点，发起运动，改变了整个的设计 
+"
+        "将单一环境中的发生的所有操作。对象提交没有用户"
+        "打破了连续性的经验，即使因为他们变换和重组 
+"
+        "辩论，是有意义和适当的服务，集中注意力，保持连续性。
+        "反馈是微妙尚未明确。过渡规避尚 coherent.
+
+"
+
+"3D world.
+
+"
+
+"物质环境是一个三维的空间，这意味着所有对象都有 x、 y 和 z"
+        "维度。Z 轴垂直于平面显示器，与对齐"
+        "正的 z 轴延伸向观众。每个表材料占有单"
+        "沿 z 轴的位置并且拥有一个标准 1dp 厚度 
+"
+        "在 web 上，z 轴用于分层和不角度来看。3D 世界是"
+        "模拟通过操纵 y-axis.
+
+"
+
+"光与 shadow.
+
+"
+
+"在物质环境中，虚拟的灯光照亮场景。关键灯创建"
+        "定向的影子，虽然光线从所有角度 
+ 创建软阴影"
+        "在物质环境是投射出的阴影这些两个光源。在安卓系统"
+        "发展，阴影光源是当阻止时出现的床单在材料"
+        "沿 z 轴的各种职位。在 web 上，阴影描述通过操纵"
+        "只有 y 轴。下面的示例演示与高度 6dp.
+
+ 卡"
+
+"休息 elevation.
+
+"
+
+"一切物质的东西，无论规模大小，有休息的海拔或默认仰角"
+        "这并没有改变。如果一个对象改变高程，它应该返回到其休息"
+        "尽快为 possible.
+
+ 海拔"
+
+"组件 elevations.
+
+"
+
+"休息海拔为组件类型之间是一致的应用程序 （例如，FAB 海拔"
+        "does not vary from 6dp in one app to 16dp in another app).
+"
+        "组件可能有不同的静息海拔跨平台，取决于深度"
+        "的环境 （例如，电视有更大的深度比移动或 desktop).
+
+"
+
+"响应高程和动态标高 offsets.
+
+"
+
+"一些组件类型有响应的高程，意思他们改变高程在响应"
+        "对用户输入 （例如，正常，重点突出，并按下） 或系统事件。这些高程"
+        "变化予以贯彻执行使用动态标高偏移 
+"
+        "动态标高偏移量是一个组件的走向，相对目标高程"
+        "到组件的静息状态。他们确保高程变化相一致"
+        "穿越行动和组件类型。例如，解除对新闻的所有组件都有"
+        "相对于他们休息的海拔 
+ 同一高程变化"
+        "一旦输入的事件是完成或取消，该组件将返回到其休息"
+        "elevation.
+
+"
+
+"避免海拔 interference.
+
+"
+
+"组件的响应海拔可能会遇到其他组件，如他们之间移动"
+        "他们休息的海拔和动态标高偏移量。因为材料不能通过"
+        "其他的材料，通过组件避免互相干扰任意数量的方式"
+        "无论是对每个组件的基础或使用的整个应用程序布局 
+"
+        "组件在组件级，可以移动或被删除之前他们造成干扰"。
+        "举个例子，一个浮动的动作按钮 (FAB) 可以消失或搬离屏幕前"
+        "用户拿起一张卡片，或它可以移动如果小吃店出现。 
+"
+        "在布局层面上，设计您的应用程序布局，尽量减少干扰的机会"。
+        "例如，定位晶圆厂到一侧的流的卡所以不会影响到晶圆厂"
+        "当用户试图捡到了一个 cards.
+
+"</string>
+	<string name="title_activity_load_data">LoadDataActivity</string>
+
+</resources>

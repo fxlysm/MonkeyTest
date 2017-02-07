@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="email_type">
+
+        <item>\@126.com</item>
+        <item>\@163.com</item>
+        <item>\@qq.com</item>
+        <!--<item>\@qq企业邮箱</item>-->
+    </string-array>
+</resources>

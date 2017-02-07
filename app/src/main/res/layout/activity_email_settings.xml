@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_email_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fxly.monkeytest.ui.EmailSettingsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/font_white"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <com.rengwuxian.materialedittext.MaterialEditText
+                            android:id="@+id/email_account"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="@dimen/layout_margin"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/email_account"
+                            android:text="@string/email_account_text"
+                            android:textSize="24sp"
+                            android:lines="1"
+                            android:singleLine="false"
+                            android:minLines="1"
+                            android:maxLines="1"
+                            app:met_baseColor="@android:color/black"
+                            app:met_floatingLabel="highlight"
+                            app:met_maxCharacters="12"
+                            app:met_primaryColor="?colorAccent"
+                            android:inputType="number"
+                            app:met_singleLineEllipsis="true" />
+
+
+                        <com.fxly.spinner_libs.MaterialSpinner
+                            android:layout_width="match_parent"
+                            android:id="@+id/email_type_spinner"
+                            app:ms_dropdown_max_height="350dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="@dimen/layout_margin"
+                            app:ms_background_color="@color/cpb_white"
+                            app:ms_text_color="@color/lightblack"
+                            app:ms_dropdown_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/account_password"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/layout_margin"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/email_password"
+                        android:text="@string/email_password_text"
+                        android:textSize="24sp"
+                        android:lines="1"
+                        android:singleLine="false"
+                        android:minLines="1"
+                        android:maxLines="1"
+                        app:met_baseColor="@android:color/black"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="12"
+                        app:met_primaryColor="?colorAccent"
+                        android:inputType="numberPassword"
+                        app:met_singleLineEllipsis="true" />
+
+
+
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/font_white"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/layout_margin"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/email_send_server"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/layout_margin"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/email_send_server"
+                        android:text="@string/email_send_server_text"
+                        android:textSize="24sp"
+                        android:lines="1"
+                        android:singleLine="false"
+                        android:minLines="1"
+                        android:maxLines="1"
+                        app:met_baseColor="@android:color/black"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="22"
+                        app:met_primaryColor="?colorAccent"
+                        android:inputType="textCapCharacters"
+                        app:met_singleLineEllipsis="true" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/email_send_port"
+                        android:layout_width="match_parent"
+                        android:layout_weight="3"
+                        android:layout_marginLeft="@dimen/layout_margin"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/email_send_port"
+                        android:text="@string/email_send_port_text"
+                        android:textSize="24sp"
+                        android:lines="1"
+                        android:singleLine="false"
+                        android:minLines="1"
+                        android:maxLines="1"
+                        app:met_baseColor="@android:color/black"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="4"
+                        app:met_primaryColor="?colorAccent"
+                        android:inputType="textCapCharacters"
+                        app:met_singleLineEllipsis="true" />
+                </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <com.rengwuxian.materialedittext.MaterialEditText
+                            android:id="@+id/email_incoming_server"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="@dimen/layout_margin"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/email_incoming_server"
+                            android:text="@string/email_incoming_server_text"
+                            android:textSize="24sp"
+                            android:lines="1"
+                            android:singleLine="false"
+                            android:minLines="1"
+                            android:maxLines="1"
+                            app:met_baseColor="@android:color/black"
+                            app:met_floatingLabel="highlight"
+                            app:met_maxCharacters="22"
+                            app:met_primaryColor="?colorAccent"
+                            android:inputType="textCapCharacters"
+                            app:met_singleLineEllipsis="true" />
+
+                        <com.rengwuxian.materialedittext.MaterialEditText
+                            android:id="@+id/email_incoming_port"
+                            android:layout_width="match_parent"
+                            android:layout_weight="3"
+                            android:layout_marginLeft="@dimen/layout_margin"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/email_incoming_port"
+                            android:text="@string/email_incoming_port_text"
+                            android:textSize="24sp"
+                            android:lines="1"
+                            android:singleLine="false"
+                            android:minLines="1"
+                            android:maxLines="1"
+                            app:met_baseColor="@android:color/black"
+                            app:met_floatingLabel="highlight"
+                            app:met_maxCharacters="4"
+                            app:met_primaryColor="?colorAccent"
+                            android:inputType="textCapCharacters"
+                            app:met_singleLineEllipsis="true" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

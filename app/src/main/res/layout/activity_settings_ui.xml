@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_settings_ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fxly.monkeytest.ui.SettingsUiActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        >
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:layout_marginBottom="@dimen/layout_margin"
+            android:background="@color/font_white"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/monkey_throttle"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/layout_margin"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/monkey_throttle"
+                        android:text="@string/monkey_throttle_text"
+                        android:textSize="24sp"
+                        android:lines="1"
+                        android:singleLine="false"
+                        android:minLines="1"
+                        android:maxLines="1"
+                        app:met_baseColor="@android:color/black"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="5"
+                        app:met_primaryColor="?colorAccent"
+                        android:inputType="number"
+                        app:met_singleLineEllipsis="true" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/monkey_appswitch_percent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/layout_margin"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/monkey_appswitch_percent"
+                        android:text="@string/monkey_appswitch_percent_text"
+                        android:textSize="24sp"
+                        android:lines="1"
+                        android:singleLine="false"
+                        android:minLines="1"
+                        android:maxLines="1"
+                        app:met_baseColor="@android:color/black"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="5"
+                        app:met_primaryColor="?colorAccent"
+                        android:inputType="number"
+                        app:met_singleLineEllipsis="true" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/monkey_anyevent_percent"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/layout_margin"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/monkey_anyevent_percent"
+                        android:text="@string/monkey_anyevent_percent_text"
+                        android:textSize="24sp"
+                        android:lines="1"
+                        android:singleLine="false"
+                        android:minLines="1"
+                        android:maxLines="1"
+                        app:met_baseColor="@android:color/black"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="5"
+                        app:met_primaryColor="?colorAccent"
+                        android:inputType="number"
+                        app:met_singleLineEllipsis="true" />
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/running_count"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/layout_margin"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/run_count"
+                    android:text="@string/run_count_text"
+                    android:textSize="24sp"
+                    android:lines="1"
+                    android:singleLine="false"
+                    android:minLines="1"
+                    android:maxLines="1"
+                    app:met_baseColor="@android:color/black"
+                    app:met_floatingLabel="highlight"
+                    app:met_maxCharacters="12"
+                    app:met_primaryColor="?colorAccent"
+                    android:inputType="number"
+                    app:met_singleLineEllipsis="true" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/ignore_error"
+            />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/font_white"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_marginBottom="@dimen/layout_margin"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/layout_margin"
+                android:layout_marginBottom="@dimen/layout_margin"
+                >
+                <CheckBox
+                    android:id="@+id/ignore_crashes"
+                    android:text="@string/monkey_ignore_crashes"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <CheckBox
+                    android:id="@+id/ignore_timeouts"
+                    android:text="@string/monkey_ignore_timeouts"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_cc"
+                >
+            </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/layout_margin"
+                android:layout_marginBottom="@dimen/layout_margin"
+                >
+                <CheckBox
+                    android:id="@+id/ignore_security_exceptions"
+                    android:text="@string/monkey_ignore_security_exceptions"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_cc"
+                >
+            </View>
+            <CheckBox
+                android:id="@+id/ignore_killprocess_aftererrror"
+                android:text="@string/monkey_killprocess_aftererrror"
+                android:layout_weight="1"
+                android:checked="false"
+                android:layout_marginTop="@dimen/layout_margin"
+                android:layout_marginBottom="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/save_logs"
+            />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:background="@color/font_white"
+            android:layout_marginBottom="@dimen/layout_margin"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/layout_margin"
+                    android:layout_marginBottom="@dimen/layout_margin"
+                    >
+                    <CheckBox
+                        android:id="@+id/savemonkeylogs"
+                        android:text="@string/save_monkey_log"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <CheckBox
+                        android:id="@+id/savelogcat"
+                        android:text="@string/save_system_logs"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/font_white"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            >
+            <CheckBox
+                android:id="@+id/sent_report"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_margin"
+                android:layout_marginBottom="@dimen/layout_margin"
+                android:text="@string/sent_report_after"
+                />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>
